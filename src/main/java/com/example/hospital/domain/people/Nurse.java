@@ -8,17 +8,11 @@ import java.util.List;
 
 public class Nurse extends Employee{
 
-    private List<Operations> operations;
 
     private Room room;
 
-    public List<Operations> getOperations() {
-        return operations;
-    }
 
-    public void setOperations(List<Operations> operations) {
-        this.operations = operations;
-    }
+
 
     public Room getRoom() {
         return room;
@@ -31,7 +25,6 @@ public class Nurse extends Employee{
     @Override
     public String toString() {
         return "Nurse{" +
-                "operations=" + operations +
                 ", room=" + room +
                 '}';
     }

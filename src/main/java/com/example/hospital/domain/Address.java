@@ -1,7 +1,9 @@
 package com.example.hospital.domain;
 
 
-public class Address {
+import com.example.hospital.domain.people.Person;
+
+public class Address extends Person {
 
     private Long zipCode;
 

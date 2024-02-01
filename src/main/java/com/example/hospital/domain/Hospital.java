@@ -6,7 +6,7 @@ import com.example.hospital.domain.people.Employee;
 
 import java.util.List;
 
-public class Hospital{
+public class Hospital extends Employee {
 
     private String title;
 

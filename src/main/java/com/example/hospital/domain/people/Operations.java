@@ -1,6 +1,6 @@
 package com.example.hospital.domain.people;
 
-public class Operations {
+public class Operations extends Nurse {
 
     private String name;
 

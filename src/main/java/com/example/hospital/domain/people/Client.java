@@ -1,4 +1,4 @@
-package com.example.hospital.domain;
+package com.example.hospital.domain.people;
 
 import com.example.hospital.domain.people.Person;
 

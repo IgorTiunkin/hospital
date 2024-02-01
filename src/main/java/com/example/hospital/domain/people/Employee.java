@@ -3,6 +3,7 @@ package com.example.hospital.domain.people;
 
 
 import java.time.LocalDate;
+import java.util.List;
 
 public abstract class Employee extends Person{
 
@@ -15,6 +16,8 @@ public abstract class Employee extends Person{
     private Long experience;
 
     private String workNumber;
+
+    private List<Operations> operations;
 
     public Manager getManager() {
         return manager;
@@ -54,6 +57,14 @@ public abstract class Employee extends Person{
 
     public void setWorkNumber(String workNumber) {
         this.workNumber = workNumber;
+    }
+
+    public List<Operations> getOperations() {
+        return operations;
+    }
+
+    public void setOperations(List<Operations> operations) {
+        this.operations = operations;
     }
 
     @Override
