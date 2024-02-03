@@ -5,7 +5,7 @@ import com.example.hospital.domain.Address;
 
 import java.time.LocalDate;
 
-public abstract class Building extends Address {
+public abstract class Building {
 
     private String title;
 

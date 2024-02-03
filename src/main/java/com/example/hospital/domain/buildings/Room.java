@@ -2,7 +2,7 @@ package com.example.hospital.domain.buildings;
 
 import com.example.hospital.domain.people.Nurse;
 
-public class Room extends HospitalUnitBuilding {
+public class Room {
 
     private Long number;
 
